@@ -27,7 +27,7 @@ O **AcessFlow** é um framework modular de verificação estática de acessibili
 
 ### Arquitetura
 
-![Casos de Uso do AcessFlow](./docs/images/acessflow_casos_de_uso_v2.png)
+![Casos de Uso do AcessFlow](./docs/images/acessflow_arquitetura.png)
 
 ---
 
