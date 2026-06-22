@@ -17,13 +17,17 @@ O **AcessFlow** é um framework modular de verificação estática de acessibili
 
 ### Fluxograma de Funcionamento
 
-Como o AcessFlow processa arquivos, aplica mascaramentos, percorre a AST do código e roda o motor Axe-Core:
-![Fluxograma de Funcionamento](./docs/images/fluxograma.png)
+![Fluxograma de Funcionamento](./docs/images/acessflow_fluxograma.png)
 
 ### Diagrama de Casos de Uso
+:
+![Casos de Uso do AcessFlow](./docs/images/acessflow_casos_de_uso_v2.png)
 
-Interações de desenvolvedores e automações CI/CD com o AcessFlow:
-![Casos de Uso do AcessFlow](./docs/images/casos_de_uso.png)
+---
+
+### Arquitetura
+
+![Casos de Uso do AcessFlow](./docs/images/acessflow_casos_de_uso_v2.png)
 
 ---
 
@@ -38,7 +42,7 @@ Interações de desenvolvedores e automações CI/CD com o AcessFlow:
 Abra o seu terminal (Prompt de Comando, PowerShell, Terminal do Linux ou WSL) e execute:
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/Ramonsouzadasilva/AcessFlow
 cd seu-repositorio
 ```
 
