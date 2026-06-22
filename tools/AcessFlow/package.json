@@ -1,0 +1,22 @@
+{
+  "name": "acessflow",
+  "version": "1.0.0",
+  "description": "AcessFlow — Analisador estático de acessibilidade WCAG para HTML, PHP, JS, JSX e TSX",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "acessflow": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "analyze": "node index.js",
+    "ci": "node ci.js"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.24.0",
+    "@babel/traverse": "^7.24.0",
+    "axe-core": "^4.8.2",
+    "dotenv": "^16.4.5",
+    "jsdom": "^24.0.0"
+  }
+}
